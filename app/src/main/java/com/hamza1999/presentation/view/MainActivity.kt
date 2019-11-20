@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(),ILoginView {
     //overriden iloginview function
     override fun showToast(message: String){
 //        Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
-        if(message.equals("success")){
+        if(message.equals("Success")){
             startActivity(Intent(this,Home::class.java))
         }else{
             startActivity(Intent(this,Error::class.java))
