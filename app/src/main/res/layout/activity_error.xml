@@ -9,7 +9,7 @@
     tools:context=".view.Error">
 
     <EditText
-        android:text="Error while logging in"
+        android:text="@string/error_while_logging_in"
         android:textSize="36sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
